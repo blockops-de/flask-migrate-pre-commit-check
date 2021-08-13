@@ -1,0 +1,8 @@
+---
+- id: flask-migrate
+  name: flask-migrate
+  description: Test if a flask-db-migration is required
+  entry: flask-migrate/flask-migrate.sh
+  language: script
+  types: [python]
+  pass_filenames: false
