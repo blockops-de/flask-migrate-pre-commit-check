@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [[ -d .env ]]; then
+if [[ -f "env/bin/activate" ]]; then
  . env/bin/activate
 else
  echo "Requires a virtual environment in ./env"
